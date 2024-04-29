@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dance-of-growth-fix",
+  "version": "${version}",
+  "name": "dance-of-growth-fix",
+  "description": "",
+  "authors": ["codeSheep"],
+  "contact": {
+    "repo": "https://github.com/mzy/dance-of-growth-fix"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/danceofgrowth/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.mzy.danceofgrowth.DanceOfGrowth"
+    ]
+  },
+  "mixins": [ {
+    "config": "dance-of-growth-fix.mixins.json"
+  }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
